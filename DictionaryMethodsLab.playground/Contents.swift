@@ -48,7 +48,7 @@ starWarsVillians.append("Kylo Ren")
  */
 // write your code here
 
-starWarsDroids.removeAtIndex(2)
+starWarsDroids.remove(at: 2)
 
 
 
@@ -143,7 +143,7 @@ else {
  */
 // write your code here
 
-if starWarsCharacters.removeValueForKey("Bounty Hunters") != nil {
+if starWarsCharacters.removeValue(forKey: "Bounty Hunters") != nil {
     print("Removed Bounty Hunters")
 } else {
     print("Bount Hunters did not exist")
